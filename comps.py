@@ -17,4 +17,4 @@ match = sb.matches(16, 4)
 # match.to_csv('match.csv', index=False)
 
 livtot = sb.events(22912)
-print(livtot)
+livtot.to_csv('livtot.csv', index=False)
